@@ -1,0 +1,100 @@
+@media screen and (min-width: 480px) and (max-width: 700px){
+.row{
+	width:100%;
+	height:auto;
+	display: block;
+}
+.row::before,
+.row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.dNone{
+	display: none;
+}
+	.col1-s{
+	width:8.3333%;
+}
+	.col2-s{
+	width:16.6666%;
+}
+	.col3-s{
+	width:24.9999%;
+}
+	.col4-s{
+	width:33.3332%;
+}
+	.col5-s{
+	width:41.6665%;
+}
+	.col6-s{
+	width:49.9998%;
+}
+	.col7-s{
+	width:58.3331%;
+}
+	.col8-s{
+	width:66.6664%;
+}
+	.col9-s{
+	width:74.9997%;
+}
+	.col10-s{
+	width:83.333%;
+}
+	.col11-s{
+	width:91.6663%;
+}
+	.col12-s{
+	width:99.9996%;
+}
+.clear-s{
+	clear: both;
+}
+#map{
+	width: 100%;
+	height: 800px;
+}
+/*map section*/
+#map>.row>.wrapper>.top>.col5>.topRight>.row>.col4 a{
+	padding: 20px;
+	margin-left: 20px;
+}
+/*#map>.row>.wrapper>.top>.col5>.bottomRight>.col4{
+	display: grid;
+	justify-content: center;
+}*/
+/*news section*/
+#news{
+	width: auto;
+	height: 1350px;
+}
+
+#news .wrapper>.row{
+	height: 1200px;
+}
+#news .wrapper>.row h1{
+	float: left;
+	font-size: 25px;
+	margin-left: 15px;
+	padding-top: 15px;
+}
+#news .wrapper>.row>.newsTop .col3, #news .wrapper>.row>.newsBottom .col3{
+	width: 100%;
+
+}
+#news .wrapper>.row>.newsTop .col3 .row, #news .wrapper>.row>.newsBottom .col3 .row{
+	width: 450px;
+}
+#news .wrapper>.row>.newsTop .row>[class*="col"], #news .wrapper>.row>.newsBottom .col3 .row [class*="col"]{
+	float: left;
+	width: auto;
+
+}
+#news .wrapper>.row>a{
+float: left;
+margin-left: 5%;
+}
+
+}
